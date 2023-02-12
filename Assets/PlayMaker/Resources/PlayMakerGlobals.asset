@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: e743331561ef77147ae48cda9bcb8209, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier: 
+  variables:
+    floatVariables: []
+    intVariables:
+    - useVariable: 1
+      name: Score
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: CountDownNum
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 5
+    - useVariable: 1
+      name: EndEvent
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables:
+    - useVariable: 1
+      name: "\u662F\u5426\u663E\u793A"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    stringVariables:
+    - useVariable: 1
+      name: Text
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: "\u5206\u6570\u6587\u672C"
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    vector2Variables: []
+    vector3Variables: []
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: CurrentPrompt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables: []
+    materialVariables: []
+    textureVariables: []
+    arrayVariables: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - ShowText
+  - RepeatSelf
+  - "\u70B9\u51FB\u9690\u85CF\u7269"
+  - "\u6587\u672C\u6D88\u5931"
+  - "\u663E\u793A\u6587\u672C"
+  - "\u5206\u6570\u589E\u52A0\u547D\u4EE4"
+  - "\u5206\u6570\u53D8\u66F4\u4E8B\u4EF6"
+  - "\u5F00\u59CB\u5012\u8BA1\u65F6"
+  - "\u53CC\u500D\u5206\u6570\u547D\u4EE4"
+  - "\u7ED3\u675F\u4FE1\u53F7"
+  - "\u6E38\u620F\u7ED3\u675F"
